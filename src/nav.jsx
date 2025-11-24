@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function App() {
+function Nav() {
     const [count, setCount] = useState(0)
 
     return (
@@ -37,7 +37,6 @@ function App() {
                         </div>
                     </div>
 
-                    {/* Counter */}
                     <div className="text-center mb-8">
                         <button
                             onClick={() => setCount((count) => count + 1)}
@@ -52,7 +51,7 @@ function App() {
                     </p>
                 </div>
 
-                {/* Footer */}
+
                 <footer className="text-center text-purple-200 opacity-75">
                     Cliquez sur les logos Vite et React pour en savoir plus
                 </footer>
@@ -61,4 +60,4 @@ function App() {
     )
 }
 
-export default App
+export default Nav;
