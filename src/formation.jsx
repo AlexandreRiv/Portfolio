@@ -2,7 +2,7 @@ import { formations } from '../assets/information.js';
 
 function Formation() {
     return (
-        <section id="formation" className="bg-gray-100 py-16 sm:py-20 lg:py-24">
+        <section id="formation" className="bg-gray-200 py-16 sm:py-20 lg:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
                     <div className="space-y-6">
@@ -10,9 +10,8 @@ function Formation() {
                             Formation
                         </h2>
                         <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                            Étudiant en informatique, je suis passionné par le monde de la tech et je
-                            cherche un stage pour mettre en pratique mes compétences tout en approfondissant
-                            mes connaissances ainsi que aider mon amélioration à réaliser des projets.
+                            Étudiant en 2ème année d'informatique à Toulouse Ynov Campus, je suis passionné par le monde de la tech.
+                            Voici un aperçu de mon parcours académique et des formations que j'ai suivies pour renforcer mes compétences dans ce domaine.
                         </p>
                     </div>
                     <div className="space-y-6">

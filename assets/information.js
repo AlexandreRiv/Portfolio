@@ -9,7 +9,7 @@ export const formations = [
         title: "Lycée de la Réunion",
         school: "Lycée Jean Joly",
         period: "2021",
-        description: "Formation générale avec spécialités scientifiques."
+        description: "Formation générale avec spécialités Mathématiques, Science de l'ingénieur et option math expert."
     }
 ];
 

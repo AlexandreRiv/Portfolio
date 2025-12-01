@@ -6,7 +6,7 @@ function Header() {
                     <div className={"absolute top-0 left-0 w-12 h-12 sm:w-16 sm:h-16 lg:w-24 lg:h-24 border-t-2 border-l-2 border-white"}></div>
                     <div className={"absolute bottom-0 right-0 w-12 h-12 sm:w-16 sm:h-16 lg:w-24 lg:h-24 border-b-2 border-r-2 border-white"}></div>
 
-                    <p className={"text-[10px] sm:text-xs tracking-widest mb-2 lg:mb-4"}>allo</p>
+                    <p className={"text-[10px] sm:text-xs tracking-widest mb-2 lg:mb-4"}>Etudiant Informatique</p>
                     <p className={"text-2xl sm:text-3xl lg:text-5xl font-bold mb-1 lg:mb-2"}>Alexandre Riviere</p>
                     <p className={"text-xl sm:text-2xl lg:text-4xl"}>Developpeur</p>
 
