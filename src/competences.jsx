@@ -1,36 +1,8 @@
-function Competences() {
-    const competences = [
-        {
-            category: "Langages",
-            skills: [
-                { name: "JavaScript", level: 85 },
-                { name: "Python", level: 75 },
-                { name: "HTML/CSS", level: 90 },
-                { name: "Java", level: 70 }
-            ]
-        },
-        {
-            category: "Frameworks & Bibliothèques",
-            skills: [
-                { name: "React", level: 80 },
-                { name: "Node.js", level: 75 },
-                { name: "Express", level: 70 },
-                { name: "Tailwind CSS", level: 85 }
-            ]
-        },
-        {
-            category: "Outils & Technologies",
-            skills: [
-                { name: "Git", level: 80 },
-                { name: "Docker", level: 65 },
-                { name: "MongoDB", level: 70 },
-                { name: "PostgreSQL", level: 65 }
-            ]
-        }
-    ];
+import { competences } from '../assets/information.js';
 
+function Competences() {
     return (
-        <section id="competences" className="bg-white py-16 sm:py-20 lg:py-24">
+        <section id="competences" className="bg-gray-100 py-16 sm:py-20 lg:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
@@ -47,23 +19,13 @@ function Competences() {
                             <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
                                 {category.category}
                             </h3>
-                            <div className="space-y-4">
+                            <div className="space-y-3">
                                 {category.skills.map((skill, skillIndex) => (
-                                    <div key={skillIndex}>
-                                        <div className="flex justify-between mb-2">
-                                            <span className="text-sm sm:text-base font-medium text-gray-700">
-                                                {skill.name}
-                                            </span>
-                                            <span className="text-sm text-gray-600">
-                                                {skill.level}%
-                                            </span>
-                                        </div>
-                                        <div className="w-full bg-gray-200 rounded-full h-2">
-                                            <div
-                                                className="bg-gray-900 h-2 rounded-full transition-all duration-500"
-                                                style={{ width: `${skill.level}%` }}
-                                            />
-                                        </div>
+                                    <div key={skillIndex} className="flex items-center gap-2">
+                                        <span className="w-2 h-2 bg-gray-900 rounded-full"></span>
+                                        <span className="text-sm sm:text-base font-medium text-gray-700">
+                                            {skill.name}
+                                        </span>
                                     </div>
                                 ))}
                             </div>

@@ -3,7 +3,6 @@ function AboutMe() {
         <section id="apropos" className="bg-gray-100 py-16 sm:py-20 lg:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-                    {/*  texte de presentation */}
                     <div className="space-y-6">
                         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                             Bienvenue dans un monde mystérieux
@@ -15,8 +14,6 @@ function AboutMe() {
                             tincidunt. Aliquam dignissim libero vitae odio sollicitudin, eu placerat urna pretium.
                         </p>
                     </div>
-
-                    {/* Video / image pour le site */}
                     <div className="relative">
                         <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-2xl">
                             <video
