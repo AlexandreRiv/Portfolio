@@ -15,7 +15,7 @@ function AboutMe() {
 
                         </p>
                     </div>
-                    <div className="relative">
+                    <div className="relative max-w-md mx-auto lg:max-w-none">
                         <div className="relative aspect-square overflow-hidden rounded-full shadow-2xl">
                             <img
                                 src={"../assets/image/about_me.jpg"}

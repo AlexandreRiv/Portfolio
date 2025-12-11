@@ -74,7 +74,6 @@ export const competences = [
     {
         category: "Frameworks & Bibliothèques",
         skills: [
-            { name: "React" },
             { name: "Express" },
             { name: "Tailwind CSS" }
         ]
