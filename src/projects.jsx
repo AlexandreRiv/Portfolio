@@ -1,4 +1,4 @@
-import { projects } from "../assets/information.js";
+import { projects } from "./assets/information.js";
 
 function Projects() {
     return (

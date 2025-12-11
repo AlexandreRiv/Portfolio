@@ -1,4 +1,4 @@
-import { formations } from '../assets/information.js';
+import { formations } from './assets/information.js';
 
 function Formation() {
     return (

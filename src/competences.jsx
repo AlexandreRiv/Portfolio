@@ -1,4 +1,4 @@
-import { competences } from '../assets/information.js';
+import { competences } from './assets/information.js';
 
 function Competences() {
     return (
