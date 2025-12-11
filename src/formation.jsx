@@ -11,7 +11,7 @@ function Formation() {
                         </h2>
                         <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
                             Étudiant en 2ème année d'informatique à Toulouse Ynov Campus, je suis passionné par le monde de la tech.
-                            Voici un aperçu de mon parcours académique et des formations que j'ai suivies pour renforcer mes compétences dans ce domaine.
+                            Voici un aperçu de mon parcours académique et des formations que j'ai suivies .
                         </p>
                     </div>
                     <div className="space-y-6">

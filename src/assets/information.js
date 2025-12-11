@@ -3,13 +3,13 @@ export const formations = [
         title: "Bachelor Informatique à Toulouse",
         school: "Ynov Campus",
         period: "2024-2027",
-        description: "Programme axé sur le développement logiciel, la gestion de projets informatiques et les technologies émergentes."
+        description: "Programme axé sur le développement , la gestion de projets informatiques."
     },
     {
-        title: "Lycée de la Réunion",
-        school: "Lycée Jean Joly",
+        title: "Lycée Jean Joly",
+        school: "Lycée de la Réunion ",
         period: "2021",
-        description: "Formation générale avec spécialités Mathématiques, Science de l'ingénieur et option math expert."
+        description: "Formation générale avec spécialités Mathématiques, Science de l'ingénieur,option math expert et option sport."
     }
 ];
 
@@ -72,7 +72,7 @@ export const competences = [
         ]
     },
     {
-        category: "Frameworks & Bibliothèques",
+        category: "Frameworks ",
         skills: [
             { name: "Express" },
             { name: "Tailwind CSS" }
