@@ -1,14 +1,14 @@
 export const formations = [
     {
-        title: "Bachelor Informatique à Toulouse",
-        school: "Ynov Campus",
+        title: "Bachelor Informatique",
+        school: "Ynov Campus, Toulouse",
         period: "2024-2027",
         description: "Programme axé sur le développement , la gestion de projets informatiques."
     },
     {
-        title: "Lycée Jean Joly",
-        school: "Lycée de la Réunion ",
-        period: "2021",
+        title: "Baccelauréat Genéral",
+        school: "Lycée Jean Joly, La Reunion ",
+        period: "2019-2022",
         description: "Formation générale avec spécialités Mathématiques, Science de l'ingénieur,option math expert et option sport."
     }
 ];
