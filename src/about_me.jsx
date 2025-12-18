@@ -8,15 +8,12 @@ function AboutMe() {
                             Qui suis-je ?
                         </h2>
                         <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                            Je suis Alexandre, un étudiant en informatique .
-                            Je suis un passionné de technologie et d'innovation,
-                            Toujours en quête de nouveaux horizons à explorer.
-                            Je suis constamment curieux et j'ai toujours envie d'apprendre.
+                            Alexandre, un étudiant passionné par l'informatique. La technologie et l'innovation m'intéressent énormément. Toujours à la recherche de nouvelles opportunités à découvrir. Toujours curieux, je suis toujours désireux d'apprendre.
 
                         </p>
                     </div>
-                    <div className="relative max-w-md mx-auto lg:max-w-none">
-                        <div className="relative aspect-square overflow-hidden rounded-full shadow-2xl">
+                    <div className="relative max-w-xs mx-auto lg:max-w-sm">
+                        <div className="relative aspect-square overflow-hidden rounded-2xl shadow-2xl">
                             <img
                                 src={"../assets/image/about_me.jpg"}
                                 alt="About Me"

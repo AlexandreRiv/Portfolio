@@ -12,23 +12,23 @@ function Projects() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, index) => (
-                        <div key={index} className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
-                            <div className="relative aspect-[4/3] bg-gray-200">
+                        <div key={index} className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow bg-white flex flex-col">
+                            <div className="relative aspect-[4/3] overflow-hidden rounded-t-lg">
                                 <img
                                     src={project.images}
                                     alt={project.title}
                                     className="w-full h-full object-cover"
                                 />
                             </div>
-                            <div className="bg-white p-6">
+                            <div className="bg-white p-6 flex flex-col flex-1">
                                 <div className="flex items-baseline gap-3 mb-2">
                                     <span className="text-sm font-medium text-gray-500">{project.year}</span>
                                     <h3 className="text-xl font-bold text-gray-900">{project.title}</h3>
                                 </div>
-                                <p className="text-sm text-gray-700 leading-relaxed mb-4">
+                                <p className="text-sm text-gray-700 leading-relaxed mb-4 flex-1">
                                     {project.description}
                                 </p>
-                                <div className="flex gap-3">
+                                <div className="flex gap-3 mt-auto">
                                     {project.github && (
                                         <a
                                             href={project.github}
