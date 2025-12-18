@@ -63,29 +63,29 @@ export const competences = [
     {
         category: "Langages",
         skills: [
-            { name: "JavaScript", image: "assets/image/langages/javascript.webp" },
-            { name: "Python", image: "assets/image/langages/python.webp" },
-            { name: "HTML", image: "assets/image/langages/html.webp" },
-            { name: "CSS", image: "assets/image/langages/css.webp" },
-            { name: "Java", image: "assets/image/langages/java.webp" },
-            { name: "C++", image: "assets/image/langages/c-.webp" },
-            { name: "Golang", image: "assets/image/langages/golang.webp" }
+            { name: "JavaScript", image: "assets/image/techno/javascript.webp" },
+            { name: "Python", image: "assets/image/techno/python.webp" },
+            { name: "HTML", image: "assets/image/techno/html.webp" },
+            { name: "CSS", image: "assets/image/techno/css.webp" },
+            { name: "Java", image: "assets/image/techno/java.webp" },
+            { name: "C++", image: "assets/image/techno/c-.webp" },
+            { name: "Golang", image: "assets/image/techno/golang.webp" }
         ]
     },
     {
         category: "Frameworks ",
         skills: [
-            { name: "Express", image: "assets/image/langages/express.webp" },
-            { name: "Tailwind CSS", image: "assets/image/langages/tailwind.webp" }
+            { name: "Express", image: "assets/image/techno/express.webp" },
+            { name: "Tailwind CSS", image: "assets/image/techno/tailwind.webp" }
         ]
     },
     {
         category: "Outils & Technologies",
         skills: [
-            { name: "Git", image: "assets/image/langages/git-.webp" },
-            { name: "Docker"},
-            { name: "Trello"},
-            { name: "Cisco"}
+            { name: "Git", image: "assets/image/techno/git-.webp" },
+            { name: "Docker", image:"assets/image/techno/docker.webp"},
+            { name: "Trello" , image:"assets/image/techno/trello.webp" },
+            { name: "Cisco" , image:"assets/image/techno/cisco.webp"}
         ]
     }
 ];
