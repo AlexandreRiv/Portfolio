@@ -21,8 +21,16 @@ function Competences() {
                             </h3>
                             <div className="space-y-3">
                                 {category.skills.map((skill, skillIndex) => (
-                                    <div key={skillIndex} className="flex items-center gap-2">
-                                        <span className="w-2 h-2 bg-gray-900 rounded-full"></span>
+                                    <div key={skillIndex} className="flex items-center gap-3">
+                                        {skill.image ? (
+                                            <img
+                                                src={skill.image}
+                                                alt={skill.name}
+                                                className="w-8 h-8 object-contain"
+                                            />
+                                        ) : (
+                                            <span className="w-2 h-2 bg-gray-900 rounded-full"></span>
+                                        )}
                                         <span className="text-sm sm:text-base font-medium text-gray-700">
                                             {skill.name}
                                         </span>

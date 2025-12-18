@@ -63,26 +63,26 @@ export const competences = [
     {
         category: "Langages",
         skills: [
-            { name: "JavaScript" },
-            { name: "Python" },
-            { name: "HTML" },
-            { name: "CSS" },
-            { name: "Java" },
-            { name: "C++"},
-            { name: "Golang" }
+            { name: "JavaScript", image: "assets/image/langages/javascript.webp" },
+            { name: "Python", image: "assets/image/langages/python.webp" },
+            { name: "HTML", image: "assets/image/langages/html.webp" },
+            { name: "CSS", image: "assets/image/langages/css.webp" },
+            { name: "Java", image: "assets/image/langages/java.webp" },
+            { name: "C++", image: "assets/image/langages/c-.webp" },
+            { name: "Golang", image: "assets/image/langages/golang.webp" }
         ]
     },
     {
         category: "Frameworks ",
         skills: [
-            { name: "Express" },
-            { name: "Tailwind CSS" }
+            { name: "Express", image: "assets/image/langages/express.webp" },
+            { name: "Tailwind CSS", image: "assets/image/langages/tailwind.webp" }
         ]
     },
     {
         category: "Outils & Technologies",
         skills: [
-            { name: "Git" },
+            { name: "Git", image: "assets/image/langages/git-.webp" },
             { name: "Docker"},
             { name: "Trello"},
             { name: "Cisco"}
