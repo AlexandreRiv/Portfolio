@@ -1,4 +1,4 @@
-import backgroundVideo from '../assets/videos/background.mp4';
+import backgroundVideo from '../public/assets/videos/background.mp4';
 
 function Header() {
     return (
@@ -17,7 +17,7 @@ function Header() {
                     <p className={"text-xl sm:text-2xl lg:text-4xl"}>Developpeur</p>
 
                     <div className={"absolute bottom-4 left-4 sm:bottom-6 sm:left-6 lg:bottom-8 lg:left-8 flex flex-row items-center gap-44 sm:gap-80 lg:gap-64 xl:gap-80"}>
-                    <img src="../assets/image/down-arrow.svg" alt="arrow" className={"w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8"} />
+                    <img src="../public/assets/image/down-arrow.svg" alt="arrow" className={"w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8"} />
                         <p className={"text-xs sm:text-sm font-bold tracking-widest"}>PORTFOLIO</p>
                     </div>
                 </div>

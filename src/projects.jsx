@@ -36,7 +36,7 @@ function Projects() {
                                             rel="noopener noreferrer"
                                             className="flex-1 inline-flex items-center justify-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-800 transition-colors"
                                         >
-                                            <img src="../assets/image/github.svg" alt="GitHub" className="w-5 h-5" />
+                                            <img src="../public/assets/image/github.svg" alt="GitHub" className="w-5 h-5" />
                                             GitHub
                                         </a>
                                     )}
@@ -47,7 +47,7 @@ function Projects() {
                                             rel="noopener noreferrer"
                                             className="flex-1 inline-flex items-center justify-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-800 transition-colors"
                                         >
-                                            <img src="../assets/image/site.svg" alt="Site" className="w-5 h-5" />
+                                            <img src="../public/assets/image/site.svg" alt="Site" className="w-5 h-5" />
                                             Site
                                         </a>
                                     )}
