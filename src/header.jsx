@@ -5,7 +5,7 @@ function Header() {
         <div className={"video-container relative"}>
             <video autoPlay loop muted playsInline className={"video-element w-full h-screen object-cover"} preload="auto" >
                 <source src="/assets/videos/background.webm" type="video/webm"/>
-                <source src={backgroundVideo} type="video/mp4" />
+                <source src={backgroundVideo} type="video/mp4" loading="lazy"/>
             </video>
             <div className={"allspaces absolute inset-0 z-10 flex justify-center lg:justify-end items-center px-4 lg:pr-20"}>
                 <div className={"upper-text-right flex flex-col items-start justify-center text-white z-10 p-6 lg:p-8 relative w-full max-w-[90%] sm:max-w-[500px] min-h-[300px] lg:h-[350px]"}>

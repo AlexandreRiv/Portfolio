@@ -23,10 +23,11 @@ function Competences() {
                                 {category.skills.map((skill, skillIndex) => (
                                     <div key={skillIndex} className="flex items-center gap-3">
                                         {skill.image ? (
-                                            <img
-                                                src={skill.image}
-                                                alt={skill.name}
+                                            <img 
+                                                src={skill.image} 
+                                                alt={skill.name} 
                                                 className="w-8 h-8 object-contain"
+                                                loading="lazy"
                                             />
                                         ) : (
                                             <span className="w-2 h-2 bg-gray-900 rounded-full"></span>
